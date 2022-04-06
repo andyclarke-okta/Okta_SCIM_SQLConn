@@ -1,0 +1,30 @@
+﻿[
+    {
+        "name": "NOT IN USE - PPFA",
+        "affiliateCode": 10000,
+        "affiliateOrgUrl": "https://pp.oktapreview.com",
+        "affiliateOrgToken": "123ljdg0ijewtljt101k4",
+        "affiliateHubAppLink": "/app/plannedparenthoodppfa_sabacloudtest_1/k36js0x2IIPGFDJIVVQW/sso/saml"
+    },
+    {
+        "name": "Voxent",
+        "affiliateCode": 10070,
+        "affiliateOrgUrl": "https://voxent.oktapreview.com",
+        "affiliateOrgToken": "00M5edB1tQPU3RDLqOuzLIC9lI1WD_aP1qXqwFeTkr",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exk47a2nu4yQa3JRZ0h7/sso/saml"
+    },
+    {
+        "name": "ARMS",
+        "affiliateCode": 23,
+        "affiliateOrgUrl": "https://pp.oktapreview.com",
+        "affiliateOrgToken": "123ljdg0ijewtljt101k4",
+        "affiliateHubAppLink": "/template_saml/asru135afe31"
+    },
+    {
+        "name": "Planned Parenthood Mar Monte",
+        "affiliateCode": 90130,
+        "affiliateOrgUrl": "https://ppmm.okta.com",
+        "affiliateOrgToken": "00f1y3i8LBAHkKlhLlomfuirFl72jiLQS2WYmWEFWg",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exk1y576h8n7Vj7xS0x7/sso/saml"
+    }
+]

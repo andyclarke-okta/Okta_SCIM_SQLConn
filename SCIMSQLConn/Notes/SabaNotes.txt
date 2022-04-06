@@ -1,0 +1,8 @@
+"securityRoles":
+[
+{"name":"Internal Person Basic Privileges","securityDomain":{"displayName":"Global Common"}},
+{"name":"Internal Person Basic Privileges","securityDomain":{"displayName":"PPFA"}},
+{"name":"Internal Person Login Privileges","securityDomain":{"displayName":"PPFA"}},
+{"name":"Report Privileges in world domain","securityDomain":{"displayName":"world"}},
+{"name":"Common Privileges in world domain","securityDomain":{"displayName":"world"}}
+]

@@ -1,0 +1,240 @@
+﻿ExistsByEmailAddress
+
+<IglooApiResponse xmlns="http://schemas.iglooplatform.com/Igloo.Common" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <minRequestPeriod>0</minRequestPeriod>
+  <dictionary i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+  <response i:type="NameValueList">
+    <items>
+      <namevalue>
+        <name>userExists</name>
+        <value i:type="a:boolean" xmlns:a="http://www.w3.org/2001/XMLSchema">true</value>
+      </namevalue>
+      <namevalue>
+        <name>isAnonymous</name>
+        <value i:type="a:boolean" xmlns:a="http://www.w3.org/2001/XMLSchema">false</value>
+      </namevalue>
+      <namevalue>
+        <name>isCommunityMember</name>
+        <value i:type="a:boolean" xmlns:a="http://www.w3.org/2001/XMLSchema">false</value>
+      </namevalue>
+    </items>
+  </response>
+</IglooApiResponse>
+
+ViewByEmailAddress
+
+<IglooApiResponse xmlns="http://schemas.iglooplatform.com/Igloo.Common" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <minRequestPeriod>0</minRequestPeriod>
+  <dictionary i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+  <response i:type="Persona">
+    <id>61f69316-cb9c-e411-80cb-000af7703bc0</id>
+    <href>/.profile/o0010</href>
+    <navType>None</navType>
+    <name>
+      <firstName>Okta</firstName>
+      <lastName>10</lastName>
+      <fullName>Okta 10</fullName>
+    </name>
+    <namespace>o0010</namespace>
+    <isActivated>true</isActivated>
+    <onlinestatus>
+      <lastvisit>2015-01-17T20:06:38-05:00</lastvisit>
+      <statusText/>
+    </onlinestatus>
+    <status/>
+    <anonymousname/>
+    <hasPhoto>false</hasPhoto>
+    <sendEmailOnMessage>true</sendEmailOnMessage>
+    <smsAddress/>
+    <address/>
+    <bio/>
+    <company/>
+    <phone/>
+    <website/>
+  </response>
+</IglooApiResponse>
+
+
+Okta - Assign Application
+GET /api/Users?filter=userName+eq+%22john.anderson%40corp.xnacode.com%22&startIndex=1&count=200 HTTP/1.1
+
+Okta - Unassign application
+Okta PUTS an update marking the user as inactive
+{"schemas":["urn:scim:schemas:core:1.0","urn:scim:schemas:extension:enterprise:1.0","urn:okta:oktabradlondon_blpreviewhub_1:1.0:user:custom"],"userName":"john.anderson@corp.xnacode.com","id":"a5213a42-1d91-e411-80cb-000af7703bc0","name":{"formatted":"John Anderson","givenName":"John","familyName":"Anderson"},"emails":[{"value":"john.anderson20@corp.xnacode.com","primary":true,"type":"primary"}],"phoneNumbers":[{"value":"555-415-1337","primary":true,"type":"mobile"}],"password":"STEbgY40","active":false,"urn:okta:oktabradlondon_blpreviewhub_1:1.0:user:custom":{"occupation":"Engineer","fax":"555-111-2222","division":"Product","address":"6225 East Lake","department":"Marketing","zipcode":"14172","company":"Marketing","state":"New York","busphone":"555-111-9999","City":"New York","country":"United States"}}
+
+<IglooApiResponse xmlns="http://schemas.iglooplatform.com/Igloo.Common" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<minRequestPeriod>0</minRequestPeriod>
+	<dictionary i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+	<response i:type="Persona">
+		<id>a5213a42-1d91-e411-80cb-000af7703bc0</id>
+		<href>/.profile/janderson68</href>
+		<navType>None</navType>
+		<name>
+			<firstName>John</firstName>
+			<lastName>Anderson</lastName>
+			<fullName>John Anderson</fullName>
+		</name>
+		<namespace>janderson68</namespace>
+		<isActivated>true</isActivated>
+		<onlinestatus>
+			<lastvisit>2015-01-05T11:14:07-05:00</lastvisit>
+			<statusText/>
+		</onlinestatus>
+		<status/>
+		<anonymousname/>
+		<hasPhoto>false</hasPhoto>
+		<sendEmailOnMessage>true</sendEmailOnMessage>
+		<smsAddress/>
+		<address>
+			<street>6225 East Lake</street>
+			<region>New York</region>
+			<country>United States</country>
+			<postZip>14172</postZip>
+		</address>
+		<bio/>
+		<company>Marketing</company>
+		<phone>555-111-9999</phone>
+		<website/>
+	</response>
+</IglooApiResponse>
+
+<IglooApiResponse xmlns='http://schemas.iglooplatform.com/Igloo.Common' xmlns:i='http://www.w3.org/2001/XMLSchema-instance'>
+	<minRequestPeriod>0</minRequestPeriod>
+	<dictionary i:nil='true' xmlns:a='http://schemas.microsoft.com/2003/10/Serialization/Arrays'/>
+	<response i:type='NameValueList'>
+		<items>
+			<namevalue>
+				<name>userExists</name>
+				<value i:type='a:boolean' xmlns:a='http://www.w3.org/2001/XMLSchema'>true</value>
+			</namevalue>
+			<namevalue>
+				<name>isAnonymous</name>
+				<value i:type='a:boolean' xmlns:a='http://www.w3.org/2001/XMLSchema'>false</value>
+			</namevalue>
+			<namevalue>
+				<name>isCommunityMember</name>
+				<value i:type='a:boolean' xmlns:a='http://www.w3.org/2001/XMLSchema'>true</value>
+			</namevalue>
+		</items>
+	</response>
+</IglooApiResponse>
+
+Exception Example
+<IglooApiResponse xmlns="http://schemas.iglooplatform.com/Igloo.Common" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<minRequestPeriod>0</minRequestPeriod>
+	<requestSupportCode>25694605</requestSupportCode>
+	<exception>
+		<statusCode>422</statusCode>
+		<type>Data_ObjectAlreadyExists</type>
+		<errorId>324567</errorId>
+		<message>The object trying to be inserted already exists, and cannot be recreated.</message>
+		<errorTags>BadUserInput</errorTags>
+		<dataTokensId>ObjectType</dataTokensId>
+		<dataTokens>
+			<dataToken>
+				<name>ObjectType</name>
+				<value>User</value>
+			</dataToken>
+		</dataTokens>
+		<timestamp>2015-01-06T21:26:54.90543-05:00</timestamp>
+	</exception>
+	<dictionary i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+	<response i:nil="true"/>
+</IglooApiResponse>
+
+
+        <id>26025bad-2a65-e411-b5b8-d4ae5294c399</id>
+        <communityId>09d9ed6d-21f2-4106-967a-f01694b2c4f0</
+        <name>Administrators</name>
+
+        <id>1aabeb63-be7c-e411-80cb-000af7703bc0</id>
+        <communityId>09d9ed6d-21f2-4106-967a-f01694b2c4f0</communityId>
+        <name>Affiliate: PP Arizona</name>
+
+        <id>e1a8bf72-be7c-e411-80cb-000af7703bc0</id>
+        <communityId>09d9ed6d-21f2-4106-967a-f01694b2c4f0</communityId>
+        <name>Affiliate: PP Los Angeles</name>
+
+        <id>ceb43486-be7c-e411-80cb-000af7703bc0</id>
+        <communityId>09d9ed6d-21f2-4106-967a-f01694b2c4f0</communityId>
+        <name>Affiliate: PP Mar Monte</name>
+
+        <id>c370ad92-be7c-e411-80cb-000af7703bc0</id>
+        <communityId>09d9ed6d-21f2-4106-967a-f01694b2c4f0</communityId>
+        <name>Affiliate: PP Pacific Southwest</name>
+
+        <id>a5aecfa7-be7c-e411-80cb-000af7703bc0</id>
+        <communityId>09d9ed6d-21f2-4106-967a-f01694b2c4f0</communityId>
+        <name>Affiliate: PP Pasadena and San Gabriel Valley</name>
+
+        <id>e605a85a-5c7a-e411-80cb-000af7703bc0</id>
+        <communityId>09d9ed6d-21f2-4106-967a-f01694b2c4f0</communityId>
+        <name>Affiliates</name>
+
+        <id>28025bad-2a65-e411-b5b8-d4ae5294c399</id>
+        <communityId>09d9ed6d-21f2-4106-967a-f01694b2c4f0</communityId>
+        <name>Blogs Managers</name>
+
+        <id>27025bad-2a65-e411-b5b8-d4ae5294c399</id>
+        <communityId>09d9ed6d-21f2-4106-967a-f01694b2c4f0</communityId>
+        <name>Calendar Managers</name>
+
+        <id>e43a8e54-5c7a-e411-80cb-000af7703bc0</id>
+        <communityId>09d9ed6d-21f2-4106-967a-f01694b2c4f0</communityId>
+        <name>Federation Staff</name>
+
+        <id>2b025bad-2a65-e411-b5b8-d4ae5294c399</id>
+        <communityId>09d9ed6d-21f2-4106-967a-f01694b2c4f0</communityId>
+        <name>Forums Managers</name>
+
+        <id>29025bad-2a65-e411-b5b8-d4ae5294c399</id>
+        <communityId>09d9ed6d-21f2-4106-967a-f01694b2c4f0</communityId>
+        <name>Gallery Managers</name>
+
+
+        <id>25025bad-2a65-e411-b5b8-d4ae5294c399</id>
+        <communityId>09d9ed6d-21f2-4106-967a-f01694b2c4f0</communityId>
+        <name>Members</name>
+
+        <id>2a025bad-2a65-e411-b5b8-d4ae5294c399</id>
+        <communityId>09d9ed6d-21f2-4106-967a-f01694b2c4f0</communityId>
+        <name>Membership Managers</name>
+
+        <id>ec3a8e54-5c7a-e411-80cb-000af7703bc0</id>
+        <communityId>09d9ed6d-21f2-4106-967a-f01694b2c4f0</communityId>
+        <name>PPFA</name>
+
+
+{
+  "schemas": [
+    "urn:scim:schemas:core:1.0",
+    "urn:scim:schemas:extension:enterprise:1.0",
+    "urn:okta:plannedparenthoodppfa_igloosandbox_1:1.0:user:custom"
+  ],
+  "userName": "oktauser1@mailinator.com",
+  "name": {
+    "formatted": "Okta User1",
+    "givenName": "Okta",
+    "familyName": "User1"
+  },
+  "emails": [
+    {
+      "value": "oktauser1@mailinator.com",
+      "primary": true,
+      "type": "primary"
+    }
+  ],
+  "password": "obK0X604",
+  "active": true,
+  "urn:okta:plannedparenthoodppfa_igloosandbox_1:1.0:user:custom": {
+    "fax": "999-111-1111",
+    "address": "1 main street",
+    "department": "Department1",
+    "zipcode": "99999",
+    "company": "Department1",
+    "state": "NY",
+    "busphone": "111-111-1111",
+    "city": "Buffalo",
+    "country": "US"
+  }
+}

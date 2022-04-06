@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+To build a new connector:
+    <ol>
+        <li>Implement ISCIMConnector.cs</li>
+        <li>Register your implementation in App_Start\SimpleInjectorWebApiInitilizer.cs</li>
+    </ol>
+To test your connector:
+    <ol>
+        <li>Start the debugger in Visual Studio</li>
+        <li>You can use the postman extension in google chrome to make rest calls</li>
+        <li>There is a sample collection of tests in App_Data\PostmanTests.json</li>
+    </ol>
+Other files found in App_Data
+    <ol>
+        <li>10Users.json - a json file with 10 SCIMUsers</li>
+        <li>Users.json - a json file with thousands of users exported from the MySQL employee database</li>
+        <li>Groups.json - a json file with SCIMGroups exported from the departments table of the MySQL employee database</li>
+        <li>employees.mdf - this is the MySQL employee database migrated to SQL server 2012 using the SQL Server Migration Assistant for MySQL</li>
+        <li>See <a href="http://msdn.microsoft.com/en-us/library/hh313109(v=sql.110).aspx">here</a> for details.</li>
+    </ol>
+Other notes:
+    <ol>
+        <li>If you have to tweak the JSON serializer settings, you can adjust them in App_Start\WebApiConfig.cs</li>
+        <li>In order to handle extension data I added an ExtensionData dictionary to SCIMResource.cs</li>
+        <li>JSON.net will pack any unrecognized fields into this dictionary</li>
+    </ol>
+
+</body>
+</html>

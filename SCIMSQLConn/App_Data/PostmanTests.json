@@ -1,0 +1,176 @@
+{
+    "id": "42dc5a75-cbf9-7191-77d0-357a3aa2344b",
+    "name": "Tests",
+    "timestamp": 1417839328826,
+    "order": [
+        "c6706f3f-d733-ce57-8bf7-c31faec5120c",
+        "9c8ee72f-cd75-8cca-97d3-3334fd096daf",
+        "a258f2da-a7dd-2973-c861-df4fbdcd03f0",
+        "79bc79a2-2653-ac5d-24ec-a17b56e6e42c",
+        "e2f092b4-c17a-4e21-f773-bd5b417992a5",
+        "32d85af2-a1df-47da-dcbc-db442e4fb212",
+        "1782fd99-8c86-af7b-c1c9-5d16955ec492",
+        "441f6ce4-9162-627e-6c47-d35dff6d3e3b",
+        "7e451277-234c-78f2-fb89-6fa139237a63",
+        "4a1c1e93-6f5d-05c3-62f0-0e8b2b416eaf"
+    ],
+    "requests": [
+        {
+            "collectionId": "42dc5a75-cbf9-7191-77d0-357a3aa2344b",
+            "id": "1782fd99-8c86-af7b-c1c9-5d16955ec492",
+            "name": "Get Group By Id",
+            "description": "",
+            "url": "http://localhost:1053/api/groups/d001",
+            "method": "GET",
+            "headers": "",
+            "data": [
+            ],
+            "dataMode": "params",
+            "timestamp": 0,
+            "responses": [
+            ],
+            "version": 2
+        },
+        {
+            "collectionId": "42dc5a75-cbf9-7191-77d0-357a3aa2344b",
+            "id": "32d85af2-a1df-47da-dcbc-db442e4fb212",
+            "name": "Get all Groups",
+            "description": "",
+            "url": "http://localhost:1053/api/groups?startIndex=1&count=100",
+            "method": "GET",
+            "headers": "",
+            "data": [
+            ],
+            "dataMode": "params",
+            "timestamp": 0,
+            "responses": [
+            ],
+            "version": 2
+        },
+        {
+            "collectionId": "42dc5a75-cbf9-7191-77d0-357a3aa2344b",
+            "id": "441f6ce4-9162-627e-6c47-d35dff6d3e3b",
+            "name": "Create Group",
+            "description": "",
+            "url": "http://localhost:1053/api/groups",
+            "method": "POST",
+            "headers": "Content-Type: application/json\n",
+            "data": "{\n    \"schemas\": [\"urn:scim:schemas:core:1.0\", \"urn:okta:custom:group:1.0\"],\n    \"displayName\": \"AppGroup-Changed\",\n    \"id\": \"1002\",\n    \"members\" : [{\"value\": \"101\", \"display\": \"okta admin\"},{\"value\": \"102\", \"display\": \"okta user\"}],\n    \"urn:okta:custom:group:1.0\":{\n        \"description\":\"This is the changed first group\"\n    }\n}",
+            "dataMode": "raw",
+            "timestamp": 0,
+            "responses": [
+            ],
+            "version": 2
+        },
+        {
+            "collectionId": "42dc5a75-cbf9-7191-77d0-357a3aa2344b",
+            "id": "4a1c1e93-6f5d-05c3-62f0-0e8b2b416eaf",
+            "name": "Get Service Provider Configuration",
+            "description": "",
+            "url": "http://localhost:1053/api/ServiceProviderConfigs",
+            "method": "GET",
+            "headers": "",
+            "data": [
+            ],
+            "dataMode": "params",
+            "timestamp": 0,
+            "responses": [
+            ],
+            "version": 2
+        },
+        {
+            "collectionId": "42dc5a75-cbf9-7191-77d0-357a3aa2344b",
+            "id": "79bc79a2-2653-ac5d-24ec-a17b56e6e42c",
+            "name": "Update User",
+            "description": "",
+            "url": "http://localhost:1053/api/users/50000",
+            "method": "PUT",
+            "headers": "Content-Type: application/json\n",
+            "data": "{\n    \"userName\": \"Updated@mysql - db.org\",\n    \"name\": {\n        \"formatted\": \"Nakhoon Mandelberg\",\n        \"familyName\": \"Mandelberg\",\n        \"givenName\": \"Nakhoon\"\n    },\n    \"emails\": [\n        {\n            \"value\": \"MandelbergNakhoon@mysql - db.org\",\n            \"type\": \"work\",\n            \"primary\": true\n        }\n    ],\n    \"active\": true,\n    \"groups\": [\n        {\n            \"value\": \"d006\",\n            \"display\": \"Quality Management\"\n        }\n    ],\n    \"id\": \"50000\",\n    \"urn:okta:aclarkehub_oppsqlserver_1:1.0:user:custom\": {\n        \"birth_date\": \"1956-10-13\",\n        \"gender\": \"M\",\n        \"hire_date\": \"1994-02-20\"\n    }\n}",
+            "dataMode": "raw",
+            "timestamp": 0,
+            "responses": [
+            ],
+            "version": 2
+        },
+        {
+            "collectionId": "42dc5a75-cbf9-7191-77d0-357a3aa2344b",
+            "id": "7e451277-234c-78f2-fb89-6fa139237a63",
+            "name": "Delete Group",
+            "description": "",
+            "url": "http://localhost:1053/api/groups/11",
+            "method": "DELETE",
+            "headers": "",
+            "data": [
+            ],
+            "dataMode": "params",
+            "timestamp": 0,
+            "responses": [
+            ],
+            "version": 2
+        },
+        {
+            "collectionId": "42dc5a75-cbf9-7191-77d0-357a3aa2344b",
+            "id": "9c8ee72f-cd75-8cca-97d3-3334fd096daf",
+            "name": "Get Users (limit 100)",
+            "description": "",
+            "url": "http://localhost:1053/api/users?startIndex=1&count=100",
+            "method": "GET",
+            "headers": "",
+            "data": [
+            ],
+            "dataMode": "params",
+            "timestamp": 0,
+            "responses": [
+            ],
+            "version": 2
+        },
+        {
+            "collectionId": "42dc5a75-cbf9-7191-77d0-357a3aa2344b",
+            "id": "a258f2da-a7dd-2973-c861-df4fbdcd03f0",
+            "name": "Get User By ID",
+            "description": "",
+            "url": "http://localhost:1053/api/users/15427",
+            "method": "GET",
+            "headers": "",
+            "data": [
+            ],
+            "dataMode": "params",
+            "timestamp": 0,
+            "responses": [
+            ],
+            "version": 2
+        },
+        {
+            "collectionId": "42dc5a75-cbf9-7191-77d0-357a3aa2344b",
+            "id": "c6706f3f-d733-ce57-8bf7-c31faec5120c",
+            "name": "Create User",
+            "description": "",
+            "url": "http://localhost:1053/api/users",
+            "method": "POST",
+            "headers": "Content-Type: application/json\n",
+            "data": "{\n    \"schemas\": [\"urn:scim:schemas:core:1.0\"],\n    \"userName\": \"myemai2l@domain.com\",\n    \"emails\": [\n        {\n            \"primary\": true,\n            \"value\": \"myemail@domain.com\",\n            \"type\": \"primary\"\n        },\n        {\n            \"primary\": false,\n            \"value\": \"mypersonalemail@domain.com\",\n            \"type\": \"secondary\"\n        }\n    ],\n    \"phoneNumbers\": [\n        {\n            \"value\": \"123-444-5555\",\n            \"type\": \"mobile\"\n        }\n    ],\n    \"name\": {\n        \"familyName\": \"LastName\",\n        \"givenName\": \"FirstName\"\n    },\n    \"active\": true,\n    \"password\": \"verySecure\",\n    \"groups\": [\n        {\n            \"display\": \"firstGroup\",\n            \"value\": \"1001\"\n        }\n    ],\n      \"urn:okta:aclarkehub_oppsqlserver_1:1.0:user:custom\": {\n        \"birth_date\": \"1959-03-06\",\n        \"gender\": \"M\",\n        \"hire_date\": \"1985-03-03\"\n    }\n}",
+            "dataMode": "raw",
+            "timestamp": 0,
+            "responses": [
+            ],
+            "version": 2
+        },
+        {
+            "collectionId": "42dc5a75-cbf9-7191-77d0-357a3aa2344b",
+            "id": "e2f092b4-c17a-4e21-f773-bd5b417992a5",
+            "name": "Delete User",
+            "description": "",
+            "url": "http://localhost:1053/api/users/50003",
+            "method": "DELETE",
+            "headers": "",
+            "data": [
+            ],
+            "dataMode": "params",
+            "timestamp": 0,
+            "responses": [
+            ],
+            "version": 2
+        }
+    ]
+}

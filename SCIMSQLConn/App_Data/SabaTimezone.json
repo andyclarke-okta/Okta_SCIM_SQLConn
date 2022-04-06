@@ -1,0 +1,12 @@
+﻿[
+    {
+        "zipcode": "68460",
+        "sabatimezoneId": "tzone000000000000012",
+        "sabatimezoneDisplayName": "(GMT-05:00) Eastern Time (US & Canada)"
+    },
+    {
+       "zipcode": "94523",
+        "sabatimezoneId": "tzone000000000000005",
+        "sabatimezoneDisplayName": "(GMT-08:00) Pacific Time (US & Canada), Tijuana"
+    }    
+]

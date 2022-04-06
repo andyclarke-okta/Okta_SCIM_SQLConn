@@ -1,0 +1,26 @@
+﻿[
+    {
+        "name": "spoke",
+        "affiliateCode": "PPFA",
+        "affiliateOrgUrl": "https://aclarkespoke.oktapreview.com",
+        "affiliateOrgToken": "00qBHhHmB_DJ2Czvi7nXDxNELPwhSXPlk3R5rfVn-j",
+        "affiliateHubAppLink": "/app/okta_org2org/exk5g9o6cpOgQpYZw0h7/sso/saml",
+        "affiliateShortname": "PPFA"
+    },
+    {
+        "name": "additional_spoke",
+        "affiliateCode": "10010",
+        "affiliateOrgUrl": "https://aclarkespoke.oktapreview.com",
+        "affiliateOrgToken": "00qBHhHmB_DJ2Czvi7nXDxNELPwhSXPlk3R5rfVn-j",
+        "affiliateHubAppLink": "/app/okta_org2org/exk5g9o6cpOgQpYZw0h7/sso/saml",
+        "affiliateShortname": "PPFA"
+    },
+        {
+        "name": "ARMS",
+        "affiliateCode": "10051",
+        "affiliateOrgUrl": "https://pp.oktapreview.com",
+        "affiliateOrgToken": "123ljdg0ijewtljt101k4",
+        "affiliateHubAppLink": "/template_saml/asru135afe31",
+        "affiliateShortname": "ARMS"
+    }
+]

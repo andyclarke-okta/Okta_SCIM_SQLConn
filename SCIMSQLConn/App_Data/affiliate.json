@@ -1,0 +1,107 @@
+﻿[
+    {
+        "name": "Affiliates Risk Management Services",
+        "affiliateCode": 10051,
+        "affiliateOrgUrl": "https://arms.okta.com/",
+        "affiliateOrgToken": "00ZLjNMtAsqFJ-iHGvr0JRbRvkYeCkUXWPgXM_DNxv",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exk1hb4usudEOZyX60x7/sso/saml"
+    },
+    {
+        "name": "Planned Parenthood Federation of America",
+        "affiliateCode": 10010,
+        "affiliateOrgUrl": "https://ppfa.okta.com/",
+        "affiliateOrgToken": "00Tx8adoOtO-NlzndP66duPNEYmgZXAbVPF1m7EqH-",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exkqt7u4x1GaUtPDi0x6/sso/saml"
+    },
+    {
+        "name": "Planned Parenthood Hudson Peconic",
+        "affiliateCode": 91220,
+        "affiliateOrgUrl": "https://pphp.okta.com/",
+        "affiliateOrgToken": "00Zculx4HqFrjIRBrDVZUYfTdxAOAmE0nYdfLwkH31",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exkoh84n4ysbzt6Sh0x6/sso/saml"
+    },
+    {
+        "name": "Planned Parenthood Keystone",
+        "affiliateCode": 91410,
+        "affiliateOrgUrl": "https://ppkey.okta.com/",
+        "affiliateOrgToken": "006yEEPHC0Z2d6MwNDwg3zAGv9R0XUFfNeP4YFrFiu",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exkot5i5tznHILBIf0x6/sso/saml"
+    },
+    {
+        "name": "Planned Parenthood League of Massachusetts",
+        "affiliateCode": 90610,
+        "affiliateOrgUrl": "https://pplm.okta.com/",
+        "affiliateOrgToken": "00aob1gW3BsFNru5eB18dJPTZ5ByRnTLouGfRkc67S",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exk1h9kv9bQChhi7Q0x7/sso/saml"
+    },
+    {
+        "name": "Planned Parenthood Mar Monte",
+        "affiliateCode": 90130,
+        "affiliateOrgUrl": "https://ppmm.okta.com/",
+        "affiliateOrgToken": "00f1y3i8LBAHkKlhLlomfuirFl72jiLQS2WYmWEFWg",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exk1bag3l3QNAWmIi0x7/sso/saml"
+    },
+    {
+        "name": "Planned Parenthood of Central and Western New York",
+        "affiliateCode": 91040,
+        "affiliateOrgUrl": "https://ppcwny.okta.com/",
+        "affiliateOrgToken": "00zpILl0a0z6LcFcNGQdwi8nfZ0czD1Q3ecixZN087",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exk1h8xcq6B6OmEg00x7/sso/saml"
+    },
+    {
+        "name": "Planned Parenthood of Delaware",
+        "affiliateCode": 90240,
+        "affiliateOrgUrl": "https://ppde.okta.com/",
+        "affiliateOrgToken": "00qScKxcS6XuhP3uzXRH8ldMnt3FY814Fgl8_m4Uac",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exkqfq3t9gqKsEeSJ0x6/sso/saml"
+    },
+    {
+        "name": "Planned Parenthood of Orange & San Bernardino Counties",
+        "affiliateCode": 90160,
+        "affiliateOrgUrl": "https://pposbc.okta.com/",
+        "affiliateOrgToken": "00X6sHlGxLSzy-TIY1eyrTivqq4Kykgyf-b0P_qVF4",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exkogm4nkArqWUGF90x6/sso/saml"
+    },
+    {
+        "name": "Planned Parenthood of Santa Barbara, Ventura & San Luis Obispo Counties",
+        "affiliateCode": 90170,
+        "affiliateOrgUrl": "https://ppsbvslo.okta.com/",
+        "affiliateOrgToken": "005sPeO90gih1kis53m1PsYfvBHLI9q-urz_pOyLk6",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exkmccsv19LpNJn930x6/sso/saml"
+    },
+    {
+        "name": "Planned Parenthood of Southern New England",
+        "affiliateCode": 90220,
+        "affiliateOrgUrl": "https://ppsne.okta.com/",
+        "affiliateOrgToken": "00e_MSWtxst1Kn8Ob2UFwKLPqj0r4VHV6AcGjZT7_A",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exkmd8dop8LUA62d40x6/sso/saml"
+    },
+    {
+        "name": "Voxent",
+        "affiliateCode": 10070,
+        "affiliateOrgUrl": "https://voxent.okta.com/",
+        "affiliateOrgToken": "00IB0fy5x8q2w9bjxtU0QAF1ErKz_T5nLHskv6iAVC",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exk14weau9m8Dzso30h8/sso/saml"
+    },
+    {
+        "name": "Community Outreach Group",
+        "affiliateCode": 10080,
+        "affiliateOrgUrl": "https://cog.okta.com/",
+        "affiliateOrgToken": "00mJFWw8eC8vvzN86OyHXRJUDoinTYWhe5VpnJzLVj",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exkmgpc7npUYkjbrb0x6/sso/saml"
+    },
+    {
+        "name": "Planned Parenthood of Metropolitan New Jersey",
+        "affiliateCode": 90920,
+        "affiliateOrgUrl": "https://ppmnj.okta.com/",
+        "affiliateOrgToken": "00zUNbhbZSOR35-Owt1vx_YfFHGbRMUXZGcYVZjxPF",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exk1slne2eZ6TqnSr0x7/sso/saml"
+    },
+    {
+        "name": "Planned Parenthood of Northern California",
+        "affiliateCode": 90200,
+        "affiliateOrgUrl": "https://ppnorcal.okta.com/",
+        "affiliateOrgToken": "00drDHdLj0InK_m7etLBLSARlbNPhxZR4_HRxeLaRD",
+        "affiliateHubAppLink": "/app/template_saml_2_0/exk1setueh9LrfrLU0x7/sso/saml"
+    }    
+]
